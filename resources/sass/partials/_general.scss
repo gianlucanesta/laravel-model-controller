@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    background-color:  #D6EDFF;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+.cards {
+    justify-content: center;
+    text-align: center; 
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 3px solid #8b95c9;
+    background-color:#84DCC6;
+    width: calc( (100% / 4) - 5px);
+    margin: 10px;
+}
